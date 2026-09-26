@@ -1,0 +1,64 @@
+CASE 01 — MANAGEMENT CONSULTING
+
+Indian company:
+Pune-based strategy consulting firm
+
+Foreign customer:
+UK company
+
+Invoice:
+GBP 18,000
+
+Description:
+Strategic advisory and market-entry consulting.
+
+Questions:
+
+1. Is this software, IT-enabled service or consulting?
+2. What evidence supports the classification?
+3. What happens if the merchant selects the wrong category?
+4. Could NLP classify the transaction automatically?
+
+CASE 02 — SaaS EXPORT
+
+Indian company:
+Bengaluru-based SaaS company
+
+Foreign customer:
+US enterprise
+
+Invoice:
+USD 18,000
+
+Description:
+Annual subscription for enterprise workflow software.
+
+Questions:
+
+1. What economic activity is occurring?
+2. Which purpose-code category appears relevant?
+3. What documentation should be considered?
+4. What compliance risks exist?
+5. What information would an AI classifier need?
+
+CASE 03 — ADVERTISING
+
+Indian company:
+Mumbai digital marketing agency
+
+Foreign customer:
+German e-commerce company
+
+Recurring payment:
+EUR 8,000/month
+
+Description:
+Digital marketing and campaign management services.
+
+Questions:
+
+1. Is the transaction recurring?
+2. Can merchant classification be configured at onboarding?
+3. Can reconciliation be automated?
+4. Can compliance documentation be automatically generated?
+
