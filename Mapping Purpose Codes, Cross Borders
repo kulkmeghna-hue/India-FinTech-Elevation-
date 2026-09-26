@@ -1,0 +1,52 @@
+# Purpose Code Mapping
+
+## Objective
+
+Explore how purpose-code classification affects transaction processing,
+merchant onboarding and compliance automation.
+
+## Core Hypothesis
+
+Purpose-code selection should move from a static compliance field toward
+an intelligent transaction-classification layer.
+
+Instead of asking:
+
+"What purpose code should the merchant select?"
+
+a technology platform could ask:
+
+"What is the underlying economic activity?"
+
+and use transaction metadata, invoice descriptions and merchant information
+to suggest the appropriate regulatory classification.
+
+## Initial Mapping
+
+| Business Activity | Example | Purpose Code | Compliance Consideration |
+|---|---|---|---|
+| Software export | SaaS/software development | P0802* | Export documentation |
+| IT-enabled services | BPO/data analytics | P0806* | Export documentation |
+| Management consulting | Advisory services | P1007* | Export documentation |
+| Advertising | Digital advertising | P1101* | Export documentation |
+| Healthcare | Telehealth services | P0014* | Sector-specific documentation |
+| R&D | Technology research | P0801* | Export documentation |
+
+*Codes should be independently validated against the current RBI master
+direction before being used operationally.
+
+## Technology Opportunity
+
+Potential automation:
+
+Invoice / Contract
+       ↓
+Natural Language Classification
+       ↓
+Candidate Purpose Code
+       ↓
+Regulatory Rule Engine
+       ↓
+Human / Compliance Validation
+       ↓
+Transaction Processing
